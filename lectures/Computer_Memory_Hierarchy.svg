@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1198px"
+	 height="796px" viewBox="0 0 1198 796" enable-background="new 0 0 1198 796" xml:space="preserve">
+<g id="Layer_3">
+	<rect fill="#FFFFFF" width="1198" height="796"/>
+</g>
+<g id="Lines">
+	<line fill="none" stroke="#000000" x1="582.347" y1="128.37" x2="977.347" y2="714.369"/>
+	<line fill="none" x1="582.347" y1="128.37" x2="582.347" y2="714.369"/>
+	<line fill="none" stroke="#000000" x1="582.347" y1="128.37" x2="187.347" y2="714.369"/>
+	<line fill="none" stroke="#000000" x1="512.74" y1="231.634" x2="651.953" y2="231.634"/>
+	<line fill="none" stroke="#000000" x1="463.598" y1="304.539" x2="701.096" y2="304.539"/>
+	<line fill="none" stroke="#000000" x1="389.185" y1="414.934" x2="775.509" y2="414.934"/>
+	<line fill="none" stroke="#000000" x1="317.724" y1="520.949" x2="846.97" y2="520.949"/>
+	<line fill="none" stroke="#000000" x1="259.745" y1="606.964" x2="905.11" y2="606.964"/>
+	<line fill="none" stroke="#000000" x1="187.347" y1="714.369" x2="977.347" y2="714.369"/>
+</g>
+<g id="Text">
+	<text transform="matrix(1 0 0 1 194.311 105.0005)" font-family="'MyriadPro-Regular'" font-size="62">Computer Memory Hierarchy</text>
+	<text transform="matrix(1 0 0 1 732.8848 119.7266)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="17">by Dan Lash (.com)</tspan><tspan x="134.128" y="0" font-family="'MyriadPro-Regular'" font-size="62"> </tspan></text>
+	<text transform="matrix(1 0 0 1 397.4282 193.125)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">small size</tspan><tspan x="-45.744" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">small capacity</tspan></text>
+	<text transform="matrix(1 0 0 1 648.8896 190.125)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">processor registers</tspan><tspan x="0" y="28.8" font-family="'MyriadPro-Regular'" font-size="24"> very fast, very expensive</tspan></text>
+	<text transform="matrix(1 0 0 1 356.3062 264.3691)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">small size</tspan><tspan x="-45.744" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">small capacity</tspan></text>
+	<text transform="matrix(1 0 0 1 282.4121 348.0801)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">medium size</tspan><tspan x="-45.743" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">medium capacity</tspan></text>
+	<text transform="matrix(1 0 0 1 232.2178 457.4189)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">small size</tspan><tspan x="-43.847" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">large capacity</tspan></text>
+	<text transform="matrix(1 0 0 1 717.3467 259.7251)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">processor cache</tspan><tspan x="0" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">very fast, expensive</tspan></text>
+	<text transform="matrix(1 0 0 1 761.3164 354.5488)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">random access memory</tspan><tspan x="0" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">fast, affordable</tspan></text>
+	<text transform="matrix(1 0 0 1 842.3467 457.418)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">flash / usb memory</tspan><tspan x="0" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">slower, cheap</tspan></text>
+	<text transform="matrix(1 0 0 1 912.0313 558.6367)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">hard drives</tspan><tspan x="0" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">slow, very cheap</tspan></text>
+	<text transform="matrix(1 0 0 1 962.3467 653.6377)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">tape backup</tspan><tspan x="0" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">very slow, affordable</tspan></text>
+	<text transform="matrix(1 0 0 1 154.3242 558.6367)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">large size</tspan><tspan x="-93.55" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">very large capacity</tspan></text>
+	<text transform="matrix(1 0 0 1 113.3242 656.6367)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">large size</tspan><tspan x="-93.55" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">very large capacity</tspan></text>
+	<text transform="matrix(1 0 0 1 534.3716 224.8042)" font-family="'MyriadPro-Regular'" font-size="24">power on</text>
+	<text transform="matrix(1 0 0 1 500.1753 298.8647)" font-family="'MyriadPro-Regular'" font-size="24">immediate term</text>
+	<text transform="matrix(1 0 0 1 534.3716 347.1934)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">power on</tspan><tspan x="-28.284" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">very short term</tspan></text>
+	<text transform="matrix(1 0 0 1 536.2041 450.0625)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">power off</tspan><tspan x="-4.044" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">short term</tspan></text>
+	<text transform="matrix(1 0 0 1 534.1162 551.2813)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">power off</tspan><tspan x="2.268" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">mid term</tspan></text>
+	<text transform="matrix(1 0 0 1 532.959 653.6367)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="24">power off</tspan><tspan x="-0.936" y="28.8" font-family="'MyriadPro-Regular'" font-size="24">long term</tspan></text>
+</g>
+</svg>
