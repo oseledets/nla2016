@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{secdot}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{marvosym}
+\hypersetup{
+    colorlinks=true,     
+    urlcolor=ForestGreen
+}
+\title{Exam questions}
+\author{NLA course}
+\date{2016}
+
+\begin{document}
+
+\maketitle
+
+Online rendering on github or nbviewer might be incorrect in some places. Therefore, please read lectures locally on your laptop.
+
+\section*{List of questions}
+
+\begin{enumerate}
+%	\item Representation of numbers in computer. Fixed and floating point arithmetics. Loss of significance. Naive summation vs. Kahan summation.
+	\item Vector norms. Forward and backward stability. Disks in different norms. First norm and compressed sensing.
+	\item Matrix-matrix multiplication. Computer memory hierarchy and blocking. Standard libraries for linear algebra. Strassen algorithm (no need to remember exact formulas) and its complexity (with derivation).
+	\item Matrix norms. Example of a norm that is not a matrix norm (does not satisfy submultiplicative property). Scalar product. Cauchy-Schwarz-Bunyakovsky inequality.  
+	\item Unitary matrices and their properties. Examples: Fourier matrix, permutation matrix, Householder reflections, Givens rotations.
+	\item Matrix rank. Skeleton decomposition (with proof). Low-rank matrix storage and matrix-vector product. Instability of  matrix rank.
+	\item Singular value decomposition (SVD). Proof of its existence. Null space and image of $A$ and $A^*$ in terms of singular vectors. Interpretation of SVD as a separation of variables.
+	\item Eckart-Young theorem (proof for the spectral norm). Applications of SVD: latent semantic analysis, collaborative filtering in recommender systems, dense matrix compression.
+	\item LU-decomposition. Criteria of its existence and uniqueness (both with proof). Connection with Gaussian elimination. Complexity of decomposing and solving linear system. The concept of pivoting.
+	\item Cholesky factorization (with proof of its existence).
+	\item Neumann series.  Bounds for $\|(I-A)^{-1}\|$ and $\dfrac{\|(A+\Delta A)^{-1} - A^{-1}\|}{\|A^{-1}\|}$ (both with proofs). Estimate of a perturbation of a solution in terms of condition number (with proof). Linear systems with ``consistent'' and ``inconsistent'' right-hand sides and behavior of solution error for large condition numbers.
+	\item Least squares (LS) problem for over- and underdetermined linear systems. Methods of solving LS via QR, pseudoinverse, SVD, padding into a bigger system.
+	\item Eigenvalue problem. Eigendecomposition. Criteria of eigendecomposition existence via algebraic and geometric multiplicities (no proof). Example of a nondiagonalizable matrix. Computing eigenvalues using characteristic equation. Is it a good idea? Gershgorin circles theorem (with proof).
+	\item Power method and its convergence (with bound derivation). Application in PageRank.
+	\item Schur decomposition (with proof). Normal matrices and their diagonalizability. Properties of eigenvalues of Hermitian, unitary and skew-Hermitian matrices. Variational concept for eigenvalues: Rayleigh quotient.
+	\item QR decomposition. Proof of its existence. Connection with the Gram-Schmidt algorithm. QR via Cholesky decomposition. 
+	\item  QR via Householder reflections and Givens rotations (both with derivation). Comparison of these algorithms.
+	\item QR algorithm. Convergence theorem (no proof). Accelerating convergence with shifts. Reducing complexity of QR algorithm from $\mathcal{O}(n^4)$ down to $\mathcal{O}(n^3)$.
+	\item Divide and conquer algorithm for symmetric eigenvalue problems (with derivation).
+	\item Jacobi method for eigenvalue problem. Its convergence (with proof). 
+	\item Sparse matrix arithmectics: {COO, LIL, CSR, CSC} formats. Their comparison. Blocking for increasing efficiency of sparse formats.
+	\item Sparse LU decomposition, connection with graphs. Dependence of fill-in on ordering of graph nodes (with example). Nested dissection and spectral bisection algorithms. 
+	\item Richardson iteration. Optimal choice of parameter. Convergence estimate.
+	\item Chebyshev iteration. Error bounds via Chebyshev polynomials. 
+	\item Solving linear system as an optimization problem: minimization of residual and energy functional. Approximation of a solution  of a linear system by a subspace, Galerkin projection. Krylov subspace and ill-posedness of natural Krylov basis.
+	\item Ill-posedness of natural Krylov basis. Orthogonal basis in Krylov subspace. Arnoldi relation and its derivation. Lanczos process.
+	\item Direct Lanczos method for solving linear systems. Conjugate gradient method.
+	\item Convergence theory of the conjugate gradient method.
+	\item MINRES method. GMRES method and its connection to Anderson acceleration. Disadvantages of GMRES for nonsymmetric systems. Idea of BiCG and BiCGStab.
+	\item Preconditioning concept. Right and left preconditioners. Jacobi, Gauss-Seidel and SOR preconditioners.
+	\item Incomplete LU for preconditioning. ILUt, ILU($k$), second-order ILU (ILU2).
+	\item Inverse and Rayleigh quotient iterations. Speed of convergence. Convergence behavior of inexact inverse iteration.
+	\item Block power method. 
+	\item Ritz approximation: Ritz values and vectors and their properties. Rayleigh-Ritz method.
+	\item Arnoldi relation (with derivation). Lanczos and Arnoldi methods for solving partial eigenvalue problem. Their advantages and disadvantages.
+	\item Convergence bound for $\lambda_{\max}$ in Lanczos method (with derivation).
+	\item Preconditioned eigensolvers: PINVIT and LOBPCG methods. Finding parameters using Rayleigh-Ritz method.
+	\item Jacobi-Davidson method: derivation of the Jacobi equation. Connection to the RQ iteration. Subspace acceleration.
+	\item Fast Fourier Transform (FFT). Cooley-Tukey algorithm (with derivation).
+	\item Continuous and discrete convolution. Eigendecomposition for circulant matrices (with proof).
+	\item Product of Toeplitz matrix by vector via FFT. BTTB matrix-by-vector product via 2D FFT. 
+	\item The concept of displacement rank. Displacement rank of Toeplitz matrices.
+	\item Matrix functions. Matrix exponential and its applications. Problem with evaluating matrix exponential and how to avoid it. Schur-Parlett algorithm. Matrix functions via Pade approximation.
+	\item Sylvester and Lyapunov equations, their applications. 
+Solving Sylvester equation using Bartels-Stewart method.
+\end{enumerate}
+
+
+\end{document}
